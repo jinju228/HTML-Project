@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <head>
+    <title>박진주</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      @media (max-width: 800px) {
+        .container {
+          border: solid 4px green;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .container {
+          border: solid 4px yellow;
+        }
+      }
+
+      @media (max-width: 1023px) and (min-width: 801px) {
+        .container {
+          border: solid 4px orange;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">hello</div>
+  </body>
+</html>
